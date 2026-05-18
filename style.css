@@ -1,0 +1,142 @@
+body {
+  background-color: black;
+  color: aliceblue;
+  color: ye;
+  font-size: medium;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image {
+  width: 300px;
+  border: solid white;
+}
+
+.image2 {
+  width: 50px;
+}
+
+.image3 {
+  width: 50px;
+}
+
+.image4 {
+  width: 50px;
+}
+
+.image5 {
+  width: 80px;
+}
+
+.image6 {
+  width: 50px;
+}
+
+.image7 {
+  width: 50px;
+}
+
+.image {
+  border-radius: 100%;
+}
+
+.skills {
+  color: aquamarine;
+}
+
+.name2 {
+  color: aquamarine;
+  padding: 0;
+  margin: 0;
+}
+
+.name {
+  padding: 0;
+  margin: 0;
+}
+.youtubeimg{
+  width: 50px;
+}
+.cafeimg{
+  width: 50px;
+}
+.projectimg{
+  width: 60px;
+}
+.working{
+  color: aquamarine;
+}
+.manage{
+  color: aquamarine;
+}
+.projects{
+  color: aquamarine;
+}
+.useful{
+  color: aquamarine;
+}
+.mycv{
+  color: aquamarine;
+}
+.whatsappimg{
+  width: 50px;
+}
+.contact{
+  color: aquamarine;
+}
+.instapic{
+  width: 50px;
+}
+ 
+.anchor {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 2px solid #0bf1cb;
+  padding: 14px 40px 13px;
+  overflow: hidden;
+  position: relative;
+}
+
+.anchor:hover {
+  color: #4e484a;
+}
+
+.button a::before {
+  position: absolute;
+  content: "";
+  z-index: 0;
+  background-color: #02f79971;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  height: 111%;
+  transition: all .3s ease;
+}
+
+.button a:hover::before {
+  height: 11%;
+}
+
+.button span {
+  position: relative;
+  z-index: 2;
+  transition: all .3s ease;
+}
+.container{
+  border: solid aquamarine;
+  justify-content: center;
+}
+.work{
+  color: aliceblue;
+}
+.footer{
+  border: solid aquamarine;
+  justify-content: center;
+  
+}
